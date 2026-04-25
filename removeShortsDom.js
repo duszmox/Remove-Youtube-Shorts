@@ -11,7 +11,8 @@ browser.storage.local
         display: none !important;
       }
     
-      ytd-mini-guide-entry-renderer[aria-label=Shorts] {
+      ytd-mini-guide-entry-renderer[aria-label="Shorts"],
+      ytd-mini-guide-entry-renderer:has(a[href="/shorts/"]) {
         display: none !important;
       }`)
       );
